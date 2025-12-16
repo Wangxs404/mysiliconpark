@@ -1,0 +1,110 @@
+.footer {
+  padding: 80px 0 40px;
+  background: var(--deep-space-gray);
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 60px;
+  margin-bottom: 40px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.brand p {
+  font-size: 0.875rem;
+  color: var(--gray-500);
+}
+
+.links {
+  display: flex;
+  gap: 80px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.col h4 {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  color: var(--gray-500);
+  margin-bottom: 8px;
+}
+
+.col a {
+  font-size: 0.875rem;
+  color: var(--gray-400);
+  transition: color var(--transition-fast);
+}
+
+.col a:hover {
+  color: var(--white);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom p {
+  font-size: 0.75rem;
+  color: var(--gray-600);
+  text-transform: uppercase;
+}
+
+.social {
+  display: flex;
+  gap: 24px;
+}
+
+.social a {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  color: var(--gray-500);
+  letter-spacing: 0.1em;
+}
+
+.social a:hover {
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    gap: 48px;
+  }
+  
+  .links {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .bottom {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+}
