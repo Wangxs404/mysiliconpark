@@ -8,7 +8,7 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.top}>
           <div className={styles.brand}>
-            <span className={styles.logo}>SILIPARK</span>
+            <span className={styles.logo}>siliconpark</span>
             <p>Embodied Intelligence Integrator</p>
           </div>
           
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
 
         <div className={styles.bottom}>
-          <p>© 2024 SILIPARK TECHNOLOGY CO., LTD. ALL RIGHTS RESERVED.</p>
+          <p>© 2024 siliconpark TECHNOLOGY CO., LTD. ALL RIGHTS RESERVED.</p>
           <div className={styles.social}>
             <a href="#">LINKEDIN</a>
             <a href="#">TWITTER/X</a>

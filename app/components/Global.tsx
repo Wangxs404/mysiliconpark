@@ -24,7 +24,7 @@ export default function Global() {
             <span className={styles.label}>GLOBAL FOOTPRINT</span>
             <h2 className={styles.title}>ANCHORED IN BEIJING<br/>SERVING THE WORLD</h2>
             <p className={styles.description}>
-              Headquartered in China's technology capital, SILIPARK operates as a global nexus for 
+              Headquartered in China's technology capital, siliconpark operates as a global nexus for 
               embodied AI integration. We connect cutting-edge hardware manufacturers with 
               enterprises worldwide, facilitating the mass adoption of intelligent robotics.
             </p>

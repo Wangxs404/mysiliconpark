@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'SILIPARK - Embodied AI & Robotics Solutions',
-  description: 'Silipark is a premier embodied AI integrator specializing in robotics rental, custom development, and enterprise solutions. Partnering with Unitree and other global leaders.',
+  title: 'siliconpark - Embodied AI & Robotics Solutions',
+  description: 'siliconpark is a premier embodied AI integrator specializing in robotics rental, custom development, and enterprise solutions. Partnering with Unitree and other global leaders.',
   keywords: 'robotics, embodied AI, humanoid robots, robot dogs, Unitree, robotics rental, enterprise robotics',
   icons: {
     icon: '/favicon.ico',

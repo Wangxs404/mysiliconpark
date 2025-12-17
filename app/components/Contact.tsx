@@ -38,7 +38,7 @@ export default function Contact() {
               </div>
               <div className={styles.detailItem}>
                 <h4>GLOBAL INQUIRIES</h4>
-                <p>contact@silipark.com<br/>+86 400-XXX-XXXX</p>
+                <p>contact@siliconpark.com<br/>+86 400-XXX-XXXX</p>
               </div>
             </div>
           </div>

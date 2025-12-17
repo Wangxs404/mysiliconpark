@@ -54,7 +54,7 @@ export default function Header() {
             </svg>
           </div>
           <div className={styles.logoText}>
-            <span className={styles.logoMain}>SILIPARK</span>
+            <span className={styles.logoMain}>siliconpark</span>
           </div>
         </motion.a>
 
